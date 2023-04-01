@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .content {
+    margin-left: 20px;
+  }
+  
+  .blue-background {
+    background-color: lightblue;
+    border-radius: 5px;
+  }
+  .toplogo{
+    height: 75px;
+    margin: auto;
+    width: 100%;
+  }
+  

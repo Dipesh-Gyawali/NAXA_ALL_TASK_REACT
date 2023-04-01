@@ -5,6 +5,7 @@ import { API } from './components/API';
 import { Service } from './components/Service';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { Hooks } from './components/Hooks';
 
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
 
     <div className="App">
       <Header />
-
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="hooks" element={<Hooks />} />
           <Route path="api" element={<API />} />
           <Route path="service" element={<Service />} />
         </Routes>
