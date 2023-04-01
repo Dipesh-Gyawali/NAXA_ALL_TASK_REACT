@@ -1,0 +1,13 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+
+export const Footer = () => {
+  return (
+    <div>
+        <footer>
+            <Link to="/">NAXA All Task</Link>
+        </footer>
+    </div>
+  )
+}
