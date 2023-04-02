@@ -2,6 +2,7 @@ import { Link, NavLink, useLocation, useNavigate, useRoutes } from "react-router
 
 
 export const Header = () => {
+  
   const location = useLocation()
   console.log(location);
 
@@ -10,7 +11,6 @@ export const Header = () => {
   const scrollToSection = (event, sectionId) => {
     event.preventDefault();
     
-
     if(location.pathname !== "/"){
       navigate("/")
       const section = document.getElementById(sectionId);

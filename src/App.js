@@ -7,10 +7,8 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Hooks } from './components/Hooks';
 
-
 function App() {
   return (
-
     <div className="App">
       <Header />
       <main>
