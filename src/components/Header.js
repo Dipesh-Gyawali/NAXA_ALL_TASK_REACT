@@ -9,6 +9,7 @@ export const Header = () => {
 
   const scrollToSection = (event, sectionId) => {
     event.preventDefault();
+    
 
     if(location.pathname !== "/"){
       navigate("/")
@@ -35,6 +36,7 @@ export const Header = () => {
       </nav>
     </header>
   )
+}
 
 
 
